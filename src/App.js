@@ -38,7 +38,7 @@ function App() {
     <div style={containerStyle}>
      {countries.map((country)=>(
       <div key={country.cca3} style={countryStyle} >
-        <img src= {country.flag} alt={country.name.common} style={flagStyle}/>
+        <img src= {country.flag} alt={country.name} style={flagStyle}/>
         <h2>{country.name}</h2>
       </div>
      ))}
